@@ -8,6 +8,7 @@ public class ConvertNumber {
 		int x = sc.nextInt();
 		int code = sc.nextInt();
 		System.out.println(convert(x,code));	
+		System.out.println("make by vu thai ha");
 	}
 	private static String convert(int x,int code) {
 		String result = "";
