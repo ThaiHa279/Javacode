@@ -10,7 +10,7 @@ public class ConvertNumber {
 		System.out.println(convert(x,code));	
 		System.out.println("make by vu thai ha");
 	}
-	private static String convert(int x,int code) {
+	public static String convert(int x,int code) {
 		String result = "";
 		while (x != 0){
 			result = makechar(x%code) + result;		
